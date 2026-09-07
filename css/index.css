@@ -1,0 +1,615 @@
+/*entry样式*/
+.entry {
+    height: 500px;
+    background-color: #F5F5F5
+}
+
+.entry .w {
+    position: relative;
+    height: 100%;
+}
+
+.entry .category {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 500px;
+    width: 250px;
+    z-index: 99;
+}
+
+.entry .category ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 0 20px 0 29px;
+}
+
+.category ul li p a {
+    font-family: 'PingFangSC-Medium';
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: center;
+}
+
+.category ul li p a:first-child {
+    font-size: 16px;
+    margin-right: 14px;
+}
+
+.category ul li i {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 50px;
+}
+
+.category ul li:hover {
+    background-color: #00BE9A;
+}
+
+.banner {
+    height: 500px;
+    width: 100%;
+}
+
+.banner ul li a {
+    display: block;
+    height: 500px;
+    width: 100%;
+}
+
+.banner ul li img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.circle {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 17px;
+    right: 14px;
+}
+
+.circle li {
+    height: 14px;
+    width: 14px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    margin-left: 16px;
+}
+
+.circle li:hover {
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, .5);
+}
+
+.entry-flip {
+    position: absolute;
+    height: 50px;
+    width: 38px;
+    background-color: rgba(0, 0, 0, .3);
+    color: #FFFFFF;
+    line-height: 50px;
+    text-align: center;
+    top: 45%;
+}
+
+.entry-flip i {
+    font-size: 25px;
+}
+
+.entry-left {
+    left: 250px;
+}
+
+.entry-right {
+    right: 0;
+}
+
+/*新鲜好物*/
+.banner {
+    height: 516px;
+    background-color: #ffffff;
+}
+
+.content .w {
+    height: 100%;
+}
+
+.content .title {
+    height: 112px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .title .left {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .title .right {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .title .left h2 {
+    font-size: 30px;
+    font-family: 'PingFang SC';
+    color: #333333;
+    margin: 40px 35px 0 0;
+}
+
+.content .title .left p {
+    font-size: 16px;
+    font-family: 'PingFangSC-Regular';
+    color: #A1A1A1;
+    margin-top: 56px;
+}
+
+.content .title .right a {
+    font-size: 16px;
+    font-family: 'PingFang SC';
+    color: #A1A1A1;
+    margin-right: 10px;
+    margin-top: 49.5px;
+}
+
+.content .title .right i {
+    height: 12px;
+    width: 12px;
+    color: #A1A1A1;
+    margin-top: 49.5px;
+}
+
+.content .products {
+    height: 404px;
+}
+
+.content .products ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content ul li {
+    height: 404px;
+    width: 304px;
+    background-color: #eef9f4;
+}
+
+.content .products .product-items a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.content .product-items img {
+    width: 304px;
+    height: 304px;
+}
+
+.content .product-items h3 {
+    font: 400 20px 'PingFang SC';
+    margin: 17.5px 0 8.5px 0;
+    text-align: center;
+}
+
+.content .product-items .price {
+    font: 400 22px 'PingFang SC';
+    color: #AA2113;
+    text-align: center;
+
+}
+
+.content .product-items .price small {
+    font-size: 18px;
+}
+
+/*人气推荐*/
+.recommend .slogan {
+    color: #A1A1A1;
+    font: 400 16px 'PingFang SC';
+    text-align: center;
+}
+
+.recommend .product-items .h3 {
+    margin-bottom: 15px;
+}
+
+.recommend ul li {
+    background-color: #ffffff;
+}
+
+.recommend {
+    margin-bottom: 60px;
+}
+
+/*热门品牌*/
+.hot .direction {
+    height: 20px;
+    width: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hot .direction a {
+    display: block;
+    height: 20px;
+    width: 20px;
+    background-color: #e2e2e2;
+    margin-top: 50.5px;
+}
+
+.hot .direction a i {
+    color: #f0f0f0;
+    height: 15px;
+    width: 9px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.hot .direction a:hover {
+    background-color: #00BE9A;
+
+}
+
+.content .products .product-items a {
+    display: block;
+    height: 306px;
+    width: 244px;
+}
+
+.hot .product-items img {
+    width: 244px;
+    height: 306px;
+}
+
+.hot {
+    height: 468px;
+    background-color: #F5F5F5;
+}
+
+.hot .title {
+    height: 122px;
+}
+
+.hot ul li {
+    background-color: #f5f5f5;
+    height: 306px;
+    width: 244px;
+}
+
+/*生鲜*/
+.fresh {
+    height: 731px;
+    background-color: #ffffff;
+}
+
+.fresh .title {
+    height: 122px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fresh .title h2 {
+    font: 400 30px 'PingFang SC';
+    color: #333333;
+    margin-top: 60px;
+}
+
+.fresh .title .right {
+    margin-top: 70px;
+}
+
+.fresh .title .right ul {
+    display: flex;
+    gap: 10px;
+    margin-right: 65px;
+}
+
+.fresh .title .right {
+    display: flex;
+}
+
+.fresh .title .right ul li a {
+    font: 400 16px 'PingFang SC';
+    color: #333333;
+    padding: 1px 7px;
+}
+
+.fresh .title .right ul li a:hover {
+    padding: 1px 7px;
+    background-color: #00BE9A;
+    color: #ffffff;
+}
+
+.fresh .title .check-more a {
+    font: 400 16px 'PingFang SC';
+    color: #A1A1A1;
+}
+
+.fresh .title .check-more i {
+    height: 12px;
+    width: 12px;
+    color: #A1A1A1;
+    margin-left: 12.4px;
+}
+
+/*生鲜内容部分*/
+.fresh .fresh-content {
+    height: 610px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fresh .fresh-content .left img {
+    width: 248px;
+    height: 610px;
+}
+
+.fresh .fresh-content .left a {
+    display: block;
+    width: 248px;
+    height: 610px;
+}
+
+.fresh .fresh-content .right {
+    width: 968px;
+    height: 610px;
+}
+
+.fresh .fresh-content .right ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fresh .fresh-content .right ul li {
+    width: 242px;
+    height: 305px;
+    background-color: #ffffff;
+}
+
+.fresh .fresh-content .right ul li a {
+    display: block;
+    width: 242px;
+    height: 305px;
+}
+
+.fresh .fresh-content .right ul li img {
+    width: 190px;
+    height: 171px;
+    margin: 14.5px 0 14.5px 21px;
+}
+
+.fresh .fresh-content .right .fresh-head {
+    font: 400 16px 'PingFang SC';
+    color: #333333;
+    margin-left: 21px;
+    line-height: 19px;
+}
+
+.fresh .fresh-content .right ul li p {
+    font: 400 16px 'PingFang SC';
+    color: #333333;
+    margin-left: 21px;
+    line-height: 19px;
+}
+
+.fresh .fresh-content .right ul li h2 {
+    font: 400 22px 'PingFang SC';
+    color: #AF2F22;
+    line-height: 18px;
+    margin-left: 21px;
+    margin-top: 7px;
+}
+
+.fresh .fresh-content .right ul li h2 small {
+    font-size: 16px;
+    color: #AF2F22;
+    margin-right: 9px;
+}
+
+/*服饰*/
+.clothing .title {
+    height: 102px;
+}
+
+.clothing .title h2 {
+    margin-top: 40px;
+}
+
+.clothing .title .right {
+    margin-top: 50px;
+}
+
+/*餐厨*/
+.kitchen .title {
+    height: 102px;
+}
+
+.kitchen .title h2 {
+    margin-top: 40px;
+}
+
+.kitchen .title .right {
+    margin-top: 50px;
+}
+
+/*居家*/
+.home .title {
+    height: 102px;
+}
+
+.home .title h2 {
+    margin-top: 40px;
+}
+
+.home .title .right {
+    margin-top: 50px;
+}
+
+.home {
+    margin-bottom: 50px;
+}
+
+/*最新专题*/
+.news {
+    height: 527px;
+    background-color: #ffffff;
+}
+
+.news-content ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-link {
+    position: relative;
+    display: block;
+    height: 288px;
+    width: 405px;
+}
+
+.news-link img {
+    width: 405px;
+    height: 288px;
+}
+
+.news-price,
+.news-explain,
+.news-name {
+    position: absolute;
+}
+
+.news-price {
+    height: 25px;
+    width: 79px;
+    background-color: #FFFFFF;
+    color: #AF2F22;
+    font: 400 18px 'PingFang SC';
+    bottom: 30px;
+    right: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.news-explain {
+    height: 28px;
+    width: 270px;
+    font: 400 20px 'PingFang SC';
+    color: #FFFFFF;
+    bottom: 42px;
+    left: 15px;
+    line-height: 28px;
+}
+
+.news-name {
+    height: 22.5px;
+    width: 270px;
+    font: 400 16px 'PingFang SC';
+    color: #FFFFFF;
+    bottom: 13.5px;
+    left: 15px;
+    line-height: 22.5px;
+}
+
+
+
+/*上层*/
+.news .news-title {
+    height: 122px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-left h2 {
+    font-size: 30px;
+    font-family: 'PingFang SC';
+    font-weight: 400;
+    color: #333333;
+    margin-top: 60px;
+}
+
+.news-right {
+    margin-top: 70px;
+}
+
+.news-right a {
+    font-size: 16px;
+    font-family: 'PingFang SC';
+    font-weight: 400;
+    color: #A1A1A1;
+    margin-right: 10px;
+}
+
+.news-right i {
+    height: 12px;
+    width: 12px;
+    color: #A1A1A1;
+}
+
+/*下层-内容*/
+.bottom {
+    height: 67px;
+    width: 405px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ncleft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news {
+    color: #666666;
+}
+
+.com a {
+    height: 20px;
+    width: 49px;
+    display: flex;
+    align-items: center;
+}
+
+.love a:hover i {
+    color: red;
+}
+
+.see a:hover i {
+    color: #00BE9A;
+}
+
+.comment a:hover i {
+    color: black;
+}
+
+.com i {
+    height: 16px;
+    width: 16px;
+}
+
+.love {
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.com p {
+    font-size: 14px;
+    font-family: 'PingFang SC';
+    font-weight: 400;
+}
