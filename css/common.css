@@ -1,0 +1,365 @@
+/*头部和底部*/
+/*版心*/
+.w {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+/*顶部入口*/
+.shortcut {
+    height: 52px;
+    background-color: #333333;
+}
+
+.shortcut-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 52px;
+}
+
+/*竖线分割*/
+.line {
+    height: 12px;
+    width: 1px;
+    background-color: #999999;
+    margin: 0 15px;
+}
+
+.icon-mobile-phone {
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 2px;
+    transition: transform .5s;
+
+}
+
+.icon-mobile-phone:hover {
+    transform: rotate(180deg);
+}
+
+.shortcut-right li:nth-child(1) a {
+    color: #5EB69C;
+}
+
+.shortcut-right li a {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    font-family: 'PingFangSC-Regular';
+}
+
+.shortcut-right li a:hover {
+    color: #5EB69C;
+}
+
+/*固定右侧窗口*/
+.fixed {
+    position: fixed;
+    right: 0;
+    top: 80%;
+    z-index: 999;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(110, 192, 117, 0.5);
+}
+
+.fixed a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font: normal 400 12px/50px "PingFangSC-Regular";
+    text-align: center;
+}
+
+/*头部*/
+.head {
+    height: 132px;
+    background-color: #FFFFFF;
+    position: sticky;
+    top: 0;
+    z-index: 555;
+}
+
+.head .w {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 88px;
+    width: 200px;
+    margin: 22px 0;
+}
+
+.logo h1 {
+    height: 100%;
+    width: 100%;
+}
+
+.logo a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: url(../images/logo.png) no-repeat;
+    text-indent: -999px;
+    overflow: hidden;
+}
+
+.nav ul {
+    display: flex;
+    gap: 48px;
+}
+
+.nav ul li {
+    height: 42px;
+    width: 32px;
+
+}
+
+.nav ul li a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    font-family: 'PingFangSC-Regular';
+    font-size: 16px;
+    color: #333333;
+    line-height: 42px;
+}
+
+.nav ul li a:hover {
+    color: #5EB69C;
+    border-bottom: 2px solid #5EB69C;
+}
+
+.search {
+    position: relative;
+}
+
+.search i {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    font-size: 20px;
+    color: #cccccc;
+}
+
+.search input {
+    width: 170px;
+    height: 31px;
+    border-bottom: 1px solid #F4F4F4;
+    padding-left: 28px;
+}
+
+.search input::placeholder {
+    color: #CCCCCC;
+    font-size: 16px;
+}
+
+.car {
+    position: relative;
+}
+
+.car p {
+    position: absolute;
+    top: -3px;
+    right: -5px;
+    height: 15px;
+    width: 20px;
+    background-color: #E26237;
+    border-radius: 50%;
+    color: #fffefe;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.car i {
+    font-size: 32px;
+    margin-left: 45px;
+}
+
+/*底部*/
+.foot {
+    height: 581.5px;
+    background-color: #F5F5F5;
+}
+
+.foot .w {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot .service {
+    height: 178px;
+    width: 100%;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.service .service-items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.service ul li {
+    width: 190px;
+    height: 58px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.service-items li h5 {
+    height: 58px;
+    width: 58px;
+    background: url('../images/sprite.png') no-repeat;
+    background-position: 0 0;
+}
+
+.service-items li .two {
+    background-position: 0 -58px;
+}
+
+.service-items li .three {
+    background-position: 0 -116px;
+}
+
+.service-items li .four {
+    background-position: 0 -174px;
+}
+
+.service-items li p {
+    font-size: 28px;
+    color: #333333;
+    font-family: "PingFang SC";
+    line-height: 58px;
+}
+
+.footer-link {
+    height: 302.5px;
+}
+
+.footer-link {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-link .footer-site {
+    display: flex;
+    justify-content: space-between;
+    gap: 84px;
+}
+
+.footer-link .footer-site dl dt {
+    margin: 60px 0 30px 0;
+    font-family: "PingFangSC-Regular";
+    font-size: 18px;
+    color: #333333;
+}
+
+.footer-link .footer-site dl dd {
+    margin-bottom: 10.5px;
+    height: 22px;
+}
+
+.footer-link .footer-site dl dd a {
+    font-family: "PingFangSC-Regular";
+    font-size: 16px;
+    color: #969696;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.footer-link .footer-site dl dd a:hover {
+    color: #5EB69C;
+}
+
+.footer-link .footer-site dl dd a i {
+    height: 15px;
+    width: 15px;
+    color: #5EB69C;
+    margin-left: 4px;
+}
+
+.footer-link .qrcode {
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+    margin-top: 60px;
+}
+
+.footer-link .qrcode img {
+    width: 120px;
+    height: 120px;
+}
+
+.footer-link .qrcode p {
+    font-family: "PingFangSC-Regular";
+    font-size: 16px;
+    color: #969696;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.copyright {
+    height: 60px;
+    width: 100%;
+
+}
+
+.copyright .info-link {
+    width: 611px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.copyright .info-link ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright .info-link ul li a {
+    font-size: 16px;
+    font-family: "PingFangSC-Regular";
+    color: #A1A1A1;
+}
+
+.copyright .info-link ul li a:hover {
+    color: #5EB69C;
+}
+
+/*底部竖线分割*/
+.copyright .info-link ul li:nth-child(even) {
+    height: 16px;
+    width: 1px;
+    margin: 0 4px;
+    background-color: #A1A1A1;
+}
+
+.copyright .site {
+    width: 611px;
+    height: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.copyright .site a {
+    font-size: 16px;
+    font-family: "PingFangSC-Regular";
+    color: #A1A1A1;
+    line-height: 30px;
+}
+
+.copyright .site a:hover {
+    color: #5EB69C;
+}
